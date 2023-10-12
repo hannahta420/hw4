@@ -1,0 +1,6 @@
+Neither functions change the variables after the function call because they don't
+actually change the value of the passed variables. The functions do make changes
+to whatever the passed variable is but unless the passed variables are set to
+be replaced with the changed values, either through returning 'someval' in both
+functions and setting a and b equal to whatever new value the functions return,
+it will not change the variables.
