@@ -1,0 +1,5 @@
+One use for inheritance is for creating subclasses or child classes based on a main or base 
+template class so we don't have to keep writing the same initialized values or features for
+every subclass if they're using the same values/features. The other use is to build upon 
+the base class by using inheritance to have the child class inherit aspects of the base class
+while having their own functions or versions of the base class functions/variables.
